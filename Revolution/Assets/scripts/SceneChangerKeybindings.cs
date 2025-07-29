@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI; // Add this for UI components
+using System.Collections;
 
 public class SceneChangerKeybindings : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class SceneChangerKeybindings : MonoBehaviour
     public AudioClip clickSound; // Assign in Inspector
     private AudioSource audioSource;
 
+    public Image fadeImage; // Assign a full-screen UI Image in Inspector
+    public float fadeDuration = 1f; // Duration of fade
+
 
     private void Awake()
     {
@@ -18,6 +22,12 @@ public class SceneChangerKeybindings : MonoBehaviour
         {
             audioSource = gameObject.AddComponent<AudioSource>();
         }
+        if (fadeImage != null)
+        {
+            Color c = fadeImage.color;
+            c.a = 0f;
+            fadeImage.color = c;
+        }
     }
 
 
@@ -25,6 +35,26 @@ public class SceneChangerKeybindings : MonoBehaviour
     {
         PlayClickSound();
         sceneToLoad = targetSceneName; // Store the target scene name
+        StartCoroutine(FadeAndLoad());
+    }
+
+
+    private IEnumerator FadeAndLoad()
+    {
+        if (fadeImage != null)
+        {
+            float t = 0f;
+            Color c = fadeImage.color;
+            while (t < fadeDuration)
+            {
+                t += Time.deltaTime;
+                c.a = Mathf.Lerp(0f, 1f, t / fadeDuration);
+                fadeImage.color = c;
+                yield return null;
+            }
+            c.a = 1f;
+            fadeImage.color = c;
+        }
         SceneManager.LoadScene(loadingSceneName); // Load the loading scene
     }
 
