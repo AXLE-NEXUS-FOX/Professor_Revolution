@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -93,7 +93,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 243.2
-    height: 498.4
+    height: 497.6
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -117,9 +117,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 498.4
+    y: 497.6
     width: 1261.6
-    height: 224.4
+    height: 225.19998
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 15}
@@ -245,7 +245,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1261.6
-    height: 498.4
+    height: 497.6
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -268,7 +268,7 @@ MonoBehaviour:
     x: 243.2
     y: 0
     width: 1018.39996
-    height: 498.4
+    height: 497.6
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
@@ -446,9 +446,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 572
+    y: 571.2
     width: 1260.6
-    height: 203.4
+    height: 204.19998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -470,7 +470,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scripts
+    - Assets/Stuff
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -478,16 +478,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts
+  - Assets/Stuff
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\finta\Documents\GitHub\Professor_Revolution\Revolution
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 76.600006}
-    m_SelectedIDs: ce5b0000
-    m_LastClickedID: 23502
-    m_ExpandedIDs: 00000000b85b000000ca9a3b
+    scrollPos: {x: 0, y: 87.80002}
+    m_SelectedIDs: 38620000
+    m_LastClickedID: 25144
+    m_ExpandedIDs: 00000000b85b0000c85b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,7 +542,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000c6a200001a580100e4840000fe840000ec840000f2840000e8840000fa84000074740000827400001cc6000038c60000c8740000f278000048890000947b000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -641,7 +641,7 @@ MonoBehaviour:
     x: 0
     y: 73.6
     width: 242.2
-    height: 477.4
+    height: 476.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -655,9 +655,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 3c620000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_ExpandedIDs: e2f7ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -704,7 +704,7 @@ MonoBehaviour:
     x: 243.2
     y: 73.6
     width: 1016.39996
-    height: 477.4
+    height: 476.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1097,14 +1097,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1993.4575, y: 1042.5098, z: 10.019745}
+    m_Target: {x: 344.46997, y: 104.7053, z: 662.7731}
     speed: 2
-    m_Value: {x: 1993.4575, y: 1042.5098, z: 10.019745}
+    m_Value: {x: 344.46997, y: 104.7053, z: 662.7731}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1132,15 +1132,15 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -1150,17 +1150,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.0462568, y: 0.21554391, z: 0.010221966, w: 0.97535217}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.04385647, y: 0.221415, z: 0.009967858, w: 0.9741421}
   m_Size:
-    m_Target: 1200.9327
+    m_Target: 452.70694
     speed: 2
-    m_Value: 1200.9327
+    m_Value: 452.70694
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1.0005
     m_SpeedNormalized: 0.49999997
